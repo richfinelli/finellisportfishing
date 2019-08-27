@@ -449,10 +449,17 @@ Full width styling
 }
 #fullwidth h3{
 	color: #222;
-	font-size: 2em; /* 24px/16px */
+	font-size: 2em;
 	font-family: 'Edmondsans', Georgia, serif;
 	line-height: 30px;
 	margin-top: 25px;
+
+}
+#fullwidth h4{
+	color: #222;
+	font-size: 1.25em;
+	font-family: 'Edmondsans', Georgia, serif;
+	line-height: 1.5;
 
 }
 #thankyou img {
