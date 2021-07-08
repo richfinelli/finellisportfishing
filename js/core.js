@@ -1,3 +1,7 @@
+function getYear() {
+    return new Date().getFullYear();
+}
+
 $(document).ready(function() {
 		$('.slidewrap').carousel({
 			slider: '.slider',
@@ -29,4 +33,6 @@ $(document).ready(function() {
 				}
 			})
 			.after('<ul class="events">Events</ul>');
+
+            $('.current-year').text(getYear());
 });
