@@ -21,18 +21,14 @@ $(document).ready(function() {
 			speed: 300 // ms.
 		});
 		
-		$('.slidewrap3').carousel({ 
-				namespace: "mr-rotato" // Defaults to “carousel”.
-			})
-			.bind({
-				'mr-rotato-beforemove' : function() {
-					$('.events').append("<li>“beforemove” event fired.</li>");
-				},
-				'mr-rotato-aftermove' : function() {
-					$('.events').append("<li>“aftermove” event fired.</li>");
-				}
-			})
-			.after('<ul class="events">Events</ul>');
+		
+		$('.slidewrap3').carousel({
+			slider: '.slider3',
+			slide: '.slide3',
+			addNav: false,
+			addPagination: false,
+			speed: 300 // ms.
+		});
 
-            $('.current-year').text(getYear());
+        $('.current-year').text(getYear());
 });

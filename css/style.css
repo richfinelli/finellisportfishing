@@ -67,42 +67,23 @@ Web Fonts
 
 }
 /*****************************************************************************
-Menu
+Site Nav
 *****************************************************************************/
-#header {
-	width: 100%; /* 960px/960px */
-	padding: 20px 0;
-	background-color: #222;
-	border: none;
+.site-nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
 }
-#navigation {
-	border: none;
-	width: 75.949367088607594936708860759494%;  /* 960px/1280px */
-	margin: 0 auto;
-	text-align: center;
+.site-nav a {
+    margin-left: 1rem;
+    color: #747fea;
+    text-decoration: underline;
 }
-
-
-a li.nav {
-	display: inline;
-	color: #fff;
-	font-size: .8em;
-	padding: 5px 5px 5px 5px;
-	line-height: 1em;
-	border-bottom: 0px solid #fff;
-	text-align: center;
+.site-nav .active {
+    font-weight: bold;
 }
-a li.nav:visited {
-	color: #fff;
-	border-bottom: 0px solid #fff;
-}
-a li.nav:hover, a li.nav:focus {
-	color: #bbb;
-	text-decoration: none;
-	border-top: 1px dashed #b72121;
-}
-a li.nav:active {
-	color: #b72121;
+.site-nav a:first-child {
+    margin-left: 0;
 }
 /*****************************************************************************
 Title
